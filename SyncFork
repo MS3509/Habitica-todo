@@ -1,0 +1,15 @@
+Link: 
+https://github.com/eringiglio/Habitica-todo.git
+
+Follow instructions to sync fork from upstream file
+
+1. open Git bash
+2. Change current workign directory to your local project
+  'cd Habitica-todo/'
+3. Fetch the branches and their respective commits from the upstream repository
+   Commits to 'master' will be stored in a local branch, 'upstream/master'
+   Use command: 'git fetch upstream'
+4. Check out your fork's local 'master' branch: 'git checkout master'
+5. Merge the changes from 'upstream/master' into your local 'master' branch. Will not lose your local changes
+   'git merge upstream/master'
+ 
